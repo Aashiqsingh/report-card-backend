@@ -13,7 +13,7 @@ const addFaculty = async(req,res) => {
             })
         } else {
             res.status(404).json({
-                message:"Error in adding new Faculty",
+                message:"Error in adding new faculty",
                 data:{}
             })
         }
