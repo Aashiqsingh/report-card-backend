@@ -7,7 +7,7 @@ app.use(express.json());
 
 
 const facultyRoutes = require('./src/routes/facultyRoutes');
-app.use("/faculty",facultyRoutes);
+app.use("/faculty",facultyRoutes); // asshiq
 
 const studentRoutes = require('./src/routes/studentRoutes');
 app.use('/student',studentRoutes);
