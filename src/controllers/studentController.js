@@ -78,6 +78,13 @@ const createStudentFromExcel = (req,res)=>{
     })
 }
 
+const searchStudent = (req,res)=>{
+    const foundStudent = req.body;
+    
+    
+    
+}
+
 module.exports = {
     createStudentFromExcel
 }
